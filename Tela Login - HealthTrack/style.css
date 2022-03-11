@@ -1,0 +1,56 @@
+@font-face {
+    font-family: rubrik;
+    src: url(./fontes/Rubik-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: space grotesk;
+    src: url(./fontes/SpaceGrotesk-VariableFont_wght.ttf);
+}
+
+body{
+       background-image: url(./Imagem/ImagemFundoLogin.jpg);
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-position: center;
+}
+
+.container{
+    text-align: center;
+    background-color: rgba(82, 82, 91, 0.24);
+    margin-top: 10%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h1{
+    font-family: rubrik;
+    font-size: 4em;
+    color: #84CC16;
+}
+
+
+label{
+    font-family: space grotesk;
+    font-size: 1.2em;
+    color: #84CC16;
+}
+
+.btn{
+    color: #84CC16;
+    font-family: space grotesk;
+    font-size: 1.2em;
+}
+
+.form-check{
+    color: #F5F5F5;
+    font-family: space grotesk;
+    margin-left: -18px;
+}
+
+a{
+    color: #F5F5F5;
+    font-family: space grotesk;
+    text-decoration: none;
+}

@@ -1,0 +1,48 @@
+@font-face {
+    font-family: rubrik;
+    src: url(./fontes/Rubik-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: space grotesk;
+    src: url(./fontes/SpaceGrotesk-VariableFont_wght.ttf);
+}
+
+body{
+    background-image: url(./Imagem/ImagemFundoLogin.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container{
+    text-align: center;
+      background-color:rgba(82, 82, 91, 0.24);
+      margin-top: 10%;
+      padding-top: 50px;
+}
+
+h1{
+    color: #84CC16;
+    font-size: 3em;
+    font-family: rubrik;
+}
+
+.e-mail{
+    color: #84CC16;
+    font-size: 1.3em;
+    margin-top: 20px;
+}
+
+.botao{
+    color: #84CC16;
+    font-size: 1.3em;
+    margin-bottom: 30px;
+}
+
+.codigo{
+        color: #84CC16;
+        font-size: 1.3em;
+        margin-top: 20px;
+}
